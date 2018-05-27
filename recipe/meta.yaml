@@ -13,7 +13,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
   noarch: python
 
@@ -36,9 +36,7 @@ about:
   dev_url: https://github.com/plotly/dash-core-components
   license: MIT
   license_family: MIT
-  # TODO : Update this once plotly packages it correctly:
-  # https://github.com/plotly/dash-core-components/pull/196
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE.txt'
+  license_file: LICENSE.txt
   summary: 'Dash UI core component suite'
 
 extra:
