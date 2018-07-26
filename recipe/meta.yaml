@@ -1,7 +1,7 @@
 {% set name = "dash-core-components" %}
 {% set filename = "dash_core_components" %}
-{% set version = "0.25.1" %}
-{% set sha256 = "43221fd77eaecdd01cfc3eb2a977f0a0061ed0bc94495cfd40c55ce8ca840303" %}
+{% set version = "0.26.0" %}
+{% set sha256 = "f4a4e3d57de2b2cac4102721a0d5f207b147707010863a3cc1ad8e64ae185a82" %}
 
 package:
   name: {{ name|lower }}
