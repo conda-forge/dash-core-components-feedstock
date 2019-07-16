@@ -29,7 +29,6 @@ requirements:
 test:
   imports:
     - dash_core_components
-    - dash_core_components.version
 
 about:
   home: https://plot.ly/dash
