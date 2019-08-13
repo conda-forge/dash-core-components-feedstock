@@ -1,7 +1,7 @@
 {% set name = "dash-core-components" %}
 {% set filename = "dash_core_components" %}
-{% set version = "1.1.0" %}
-{% set sha256 = "d71f08ad1a79b8dc80f93672043bf610632c8def1bad60aafae10f4b42641029" %}
+{% set version = "1.1.1" %}
+{% set sha256 = "7119a41e921f95dc9a0341acedc18ed4d42a12af38028fc0cd59034dfc2090ce" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
   noarch: python
 
