@@ -35,7 +35,7 @@ about:
   dev_url: https://github.com/plotly/dash-core-components
   license: MIT
   license_family: MIT
-  license_file: LICENSE.txt
+  license_file: LICENSE
   summary: 'Dash UI core component suite'
 
 extra:
