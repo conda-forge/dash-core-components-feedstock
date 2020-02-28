@@ -1,7 +1,7 @@
 {% set name = "dash-core-components" %}
 {% set filename = "dash_core_components" %}
-{% set version = "1.8.0" %}
-{% set sha256 = "6ed00e421e4ff5ebe1bb91b0add168ef89cf2afbdff1e0cef91633dd338569c8" %}
+{% set version = "1.8.1" %}
+{% set sha256 = "9a8901b67d3a1038fb79153c17234d5713c2d7cca0382718c6376c786b280e63" %}
 
 package:
   name: {{ name|lower }}
@@ -36,7 +36,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Dash UI core component suite'
+  summary: Dash UI core component suite
 
 extra:
   recipe-maintainers:
