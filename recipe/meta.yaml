@@ -13,18 +13,18 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
 requirements:
-  build:
+  host:
     - python ==2.7|>=3.3
     - setuptools
     - pip
   run:
     - python ==2.7|>=3.3
-    - dash  # not listed in the setup.py
+    - dash  # not listed in the setup.py, but imported in __init__.py
 
 test:
   imports:
